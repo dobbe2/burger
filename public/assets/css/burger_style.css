@@ -1,8 +1,46 @@
 body {
-    background-color: lemonchiffon;
+    background-color: #a70e12;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    margin: 0;
 }
 
+#container {
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/grey_background.jpeg");
+}
+
+.header {
+    background-color: white;
+    border: 1px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger-name {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#newburger {
+    height: 30px;
+    width: 80%;
+    font-size: 30px;
+    border: 1px solid black;
+}
 h1 {
+    text-align: center;
+    margin-top: 0em;
+    padding-top: 20px;
+}
+
+h2 {
     text-align: center;
 }
 
@@ -12,4 +50,31 @@ img {
     margin: auto;
     display: block;
     border-radius: 75px;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+  }
+
+ul {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#left-list, #right-list {
+  padding: 5px;
+  margin: 5px;
+}
+
+.bname{
+    width: 50%;
+    text-align: left;
+}
+
+.eatburger {
+    float: right;
 }
