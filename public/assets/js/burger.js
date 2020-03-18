@@ -1,11 +1,14 @@
+
+console.log("javascript loaded")
 $(function(){
-    $(".create-form").on("submit", function (event){
+    $("#addburger").on("click", function (event){
         event.preventDefault();
         const newBurger = {
             burger_name: $("#newburger").val().trim(),
             devoured: 0
         };
-        $ajax("/api/burgers", {
+        console.log("--->", newBurger)
+        $.ajax("/api/burgers", {
                 type: "POST",
                 data: newBurger
             }).then(function(){

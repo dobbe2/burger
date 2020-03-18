@@ -13,7 +13,7 @@
             <input type="text" id="newburger" name="name">
         </div>
 
-        <button type="submit">Add Burger to List</button>
+        <button id="addburger">Add Burger to List</button>
         </form>
     </div>
     <div class="row">
@@ -22,9 +22,9 @@
             <ul id="left-list">
                 {{#each burgers}}
                     {{#unless devoured}}
-                        <span class="bname">{{this.id}} - {{this.burger_name}}
+                        <span class="burgername">{{this.id}} - {{this.burger_name}}
                             
-                            <button class="eatburger" type="submit">Devour It!</button>
+                            <button data-id={{this.id}} class="eatburger" type="submit">Devour It!</button>
                         </span><hr><br>
                     {{/unless}}
                 {{/each}}
@@ -35,7 +35,8 @@
             <ul id="right-list">
                 {{#each burgers}}
                     {{#if devoured}}
-                    <span>{{this.id}} - {{this.burger_name}}</span>
+                    <span class="burgername">{{this.id}} - {{this.burger_name}}</span>
+                    <hr><br>
                     {{/if}}
                 {{/each}}
             </ul>

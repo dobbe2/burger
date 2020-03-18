@@ -8,7 +8,7 @@ const burger = {
         });
     },
     create: function(cols, vals, cb) {
-        orm.create("burgers", cols, cals, function(res) {
+        orm.create("burgers", cols, vals, function(res) {
             cb(res);
         });
     },
