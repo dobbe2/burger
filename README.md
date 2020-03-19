@@ -19,7 +19,7 @@ The HTML will be populated with the following:
 
 ## Application in action
 
-![gif app](burger/public/assets/img/burgerApp.gif)
+![gif app](https://github.com/dobbe2/burger/blob/master/public/assets/img/burgerApp.gif?raw=true)
 
 
 ## NPM's and Libraries Used:
