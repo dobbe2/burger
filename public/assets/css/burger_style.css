@@ -34,6 +34,7 @@ body {
     font-size: 30px;
     border: 1px solid black;
 }
+
 h1 {
     text-align: center;
     margin-top: 0em;
@@ -66,8 +67,8 @@ ul {
 }
 
 #left-list, #right-list {
-  padding: 5px;
-  margin: 5px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .burgername{
