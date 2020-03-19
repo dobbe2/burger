@@ -19,7 +19,7 @@ The HTML will be populated with the following:
 
 ## Application in action
 
-![gif app](.public/assets/img/burgerApp.gif)
+![gif app](burger/public/assets/img/burgerApp.gif)
 
 
 ## NPM's and Libraries Used:
