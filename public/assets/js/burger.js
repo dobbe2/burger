@@ -1,5 +1,5 @@
 
-console.log("javascript loaded")
+// console.log("javascript loaded")
 $(function () {
     $("#addburger").on("click", function (event) {
         event.preventDefault();
