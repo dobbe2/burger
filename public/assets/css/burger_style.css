@@ -34,6 +34,7 @@ body {
     width: 80%;
     font-size: 30px;
     border: 1px solid black;
+    text-align: center;
 }
 
 h1 {
@@ -48,16 +49,23 @@ h2 {
 
 img {
     width: 250px;
-    height: 250px;
+    height: auto;
     margin: auto;
     display: block;
     border-radius: 75px;
+    max-width: 50%;
 }
 
 .row {
     display: flex;
   }
   
+
+@media (max-width: 1023px) {
+    .row {
+        display: block;
+    }
+}  
 .column {
     flex: 50%;
   }
